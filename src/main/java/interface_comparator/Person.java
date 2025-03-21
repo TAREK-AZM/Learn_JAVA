@@ -1,4 +1,4 @@
-package interfaces;
+package interface_comparator;
 
 
 public class Person implements Comparable<Person> {

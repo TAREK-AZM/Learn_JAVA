@@ -1,4 +1,4 @@
-package TD3_V2;
+package TD3_Version_2;
 
 abstract public class Article implements Comparable<Article> {
     private Integer ref;

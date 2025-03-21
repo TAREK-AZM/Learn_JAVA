@@ -1,7 +1,7 @@
 package collections.LinkedList;
 import java.util.*;
 // import all the classes from this package
-import TD3_V2.*;
+import TD3_Version_2.*;
 public class LinkedListDemo1 {
     public static void main(String[] args) {
 //      LinkedList data= new LinkedList();// heterogines store data

@@ -1,4 +1,4 @@
-package TD3_V2;
+package TD3_Version_2;
 
 public class Ramete extends Article{
     private String gamme;

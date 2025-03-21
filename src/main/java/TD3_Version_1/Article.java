@@ -1,4 +1,4 @@
-package TD3;
+package TD3_Version_1;
 
 // Classe mère Article
 public abstract class Article implements Comparable<Article> {

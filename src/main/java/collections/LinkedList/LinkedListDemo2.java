@@ -1,8 +1,8 @@
 package collections.LinkedList;
 
-import TD3_V2.Article;
-import TD3_V2.Ramete;
-import TD3_V2.Stylo;
+import TD3_Version_2.Article;
+import TD3_Version_2.Ramete;
+import TD3_Version_2.Stylo;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package instanceOf_vs_getclassgetname;
+package inheritance_instanceOf_vs_getclassgetName;
 
 public class test {
     public static void main(String[] args) {

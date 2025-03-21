@@ -1,6 +1,5 @@
-package basics.stin_stout;
+package Anonamious_Classes_And_Generic;
 
-import java.util.LinkedList;
 import java.util.Scanner;
 public class Main {
 

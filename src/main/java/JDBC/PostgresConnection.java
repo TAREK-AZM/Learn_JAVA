@@ -5,7 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class PostgresConnection {
+    // JDBC connection to Database Postgress
     public static void main(String[] args) {
+
         // JDBC URL, username, and password of the PostgreSQL database
         String jdbcURL = "jdbc:postgresql://localhost:5432/dbproo";
         String username = "postgres";

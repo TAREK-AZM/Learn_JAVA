@@ -1,4 +1,4 @@
-package collections.LinkedList;
+package Data_Structures_Collections.LinkedList;
 
 import TD3_Version_2.Article;
 import TD3_Version_2.Ramete;

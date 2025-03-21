@@ -1,4 +1,4 @@
-package collections.ArrayList;
+package Data_Structures_Collections.ArrayList;
 import java.util.*;
 public class ArryaListDemo1 {
     public static void main(String[] parameters){
@@ -41,7 +41,7 @@ public class ArryaListDemo1 {
 //        #### add multiple elelents
         ArrayList list2 = new ArrayList();
         list2.addAll(list);
-//     #### Sort ...........collections
+//     #### Sort ...........Data_Structures_Collections
         Collections.sort(list2);
         System.out.println("the sorten elements are:"+list2);
     }

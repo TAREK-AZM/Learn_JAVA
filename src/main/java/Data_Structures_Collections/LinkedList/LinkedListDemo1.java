@@ -1,4 +1,4 @@
-package collections.LinkedList;
+package Data_Structures_Collections.LinkedList;
 import java.util.*;
 // import all the classes from this package
 import TD3_Version_2.*;

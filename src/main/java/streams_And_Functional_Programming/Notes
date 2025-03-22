@@ -1,0 +1,109 @@
+--------------------------------------------------
+Why Learn Java Streams and Functional Programming?
+--------------------------------------------------
+ 1) Concise and Readable Code:
+    ==========================
+
+    -> Streams allow you to write complex data processing logic in a few lines of code.
+
+    -> Functional programming concepts like lambdas and method references make your code more expressive.
+
+ 2) Efficient Data Processing:
+ =============================
+
+    -> Streams support parallel processing, which can significantly improve performance for large datasets.
+
+ 3) Modern Java Development:
+
+    -> Streams and functional programming are widely used in modern Java applications,
+        especially in data processing, web development, and microservices.
+
+ 3) Interview Relevance:
+ =======================
+
+    -> Many companies ask questions related to Java 8 features,
+        including Streams and lambdas, during technical interviews.
+------------------------
+What We’ll Cover Today?
+-------------------------
+Introduction to Java Streams:
+
+What are Streams?
+
+    -> How are they different from collections?
+
+    -> Stream Operations:
+
+        => Intermediate operations (filter, map, sorted, etc.).
+
+        => Terminal operations (forEach, collect, reduce, etc.).
+
+    -> Functional Programming in Java:
+
+        => Lambda expressions.
+
+        => Method references.
+
+        => Functional interfaces (Predicate, Function, Consumer, etc.).
+
+    -> Practical Examples:
+
+        => Using Streams to process collections.
+
+        => Combining Streams with functional programming.
+
+1. Introduction to Java Streams
+-------------------------------
+What is a Stream?
+=================
+A Stream is a sequence of elements that supports sequential and parallel aggregate operations.
+
+It is not a data structure; instead, it takes input from collections, arrays, or I/O channels.
+
+Key Characteristics of Streams:
+===============================
+No Storage: Streams do not store data; they operate on the source data structure (e.g., a collection).
+
+Functional in Nature: Stream operations produce a result but  " do not modify the source " !!.
+
+Lazy Evaluation: Intermediate operations are only executed when a terminal operation is invoked.
+
+Parallelizable: Streams can be processed in parallel without extra effort.
+
+2. Stream Operations
+--------------------
+Stream operations are divided into two types:
+
+2.1 Intermediate Operations:
+============================
+
+These operations return a new stream and are lazy (e.g., filter, map, sorted).
+
+They are not executed until a terminal operation is called.
+
+2.2 Terminal Operations:
+========================
+
+These operations produce a result or a side effect (e.g., forEach, collect, reduce).
+
+After a terminal operation is performed, the stream cannot be reused.
+
+3. Functional Programming in Java
+---------------------------------
+3.1 Lambda Expressions
+======================
+A lambda expression is a concise way to represent an anonymous function.
+
+Syntax: (parameters) -> expression or (parameters) -> { statements; }.
+
+3.2 Method References
+=====================
+A method reference is a shorthand notation for a lambda expression that calls an existing method.
+
+Syntax: Class::method.
+
+3.3 Functional Interfaces
+=========================
+A functional interface is an interface with a single abstract method (e.g., Predicate, Function, Consumer).
+
+Lambda expressions can be used to instantiate functional interfaces.
